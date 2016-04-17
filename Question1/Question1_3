@@ -1,0 +1,8 @@
+Section 1.2
+3.
+a. The fault is: If statement should read: for (int i = arrayX.length - 1; i >= 0; i--)
+b. x = null
+c. x = [2,3,5]; y = 3  
+d. not possible
+e. When i decreased to 0 and evaluated in the for statement.  The for statement is not executed
+f. see MainCode1e

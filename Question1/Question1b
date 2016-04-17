@@ -1,0 +1,24 @@
+b. Describe at lest 3 possible faults:
+1.  The index could be incorrect and start at the the index 1 when doing the search instead of starting at index 0
+2.  The index that is used in line 99 "secondList.get(i-1)" could be "secondList.get(i)" returning the incorrect value
+3.  If the code should check for duplicate values 
+4.  Should the code consider lower and upper case the same  
+5.  The requirements do not state if it has to be a string or int value
+
+c.  Describe your rationale for each test: 
+I generated my test using the test case generator.  Then I modified them to test the results based on the index of
+the of the result ArrayList.  I also check to see if it matter if the list were lower and upper case.  
+I also checked if it matter if one list contained duplicates and if both list contained duplicates
+
+c. Describe the result foe each test set:
+I found that my code was incorrect and had to change the index for the loop.  I forgot that the index 
+increase before evaluating contains statement causing the first result to be missing.  I found that
+lower and upper case do matter.  I found duplicates were counted.
+
+
+
+d. Describe the new results of each test set:
+
+
+
+e.     
